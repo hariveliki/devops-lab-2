@@ -1,5 +1,6 @@
-def hello_world():
-	print("Hello World")
+def print_range():
+	for i in range(10):
+		print(i)
 
 if __name__ == "__main__":
-	hello_world()
+	print_range()
